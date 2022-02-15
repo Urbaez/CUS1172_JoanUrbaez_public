@@ -1,0 +1,41 @@
+h1 
+{
+    
+    background-color:aqua;
+    text-align:center
+}
+
+#title
+{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    line-height: 1.7;
+}
+#grad {
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+div
+{
+    padding: 0px;
+}
+span
+{
+    color: "color:rgb(41, 41, 41)";
+}
+ul
+{
+    color: rgb(0, 0, 0);
+    margin: auto;
+    text-align: center;
+}
+
+
+
+li
+{
+    
+}
+
+<img>,<table>,<form>,<h1>,<p>,<a>
