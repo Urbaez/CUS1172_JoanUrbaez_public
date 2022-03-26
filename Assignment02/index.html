@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <script src="javascript.js"></script>
+      <link rel="stylesheet" href="css.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
+        <title> Task List</title>
+    </head>
+    <body>
+            <!--
+add and remove a task as well as mark a task as completed
+task-title: which is a one-line description of the task
+task-priority: which can be one of low-, medium- or high-priority.
+task-status: Which can be,aq either completed, or pending
+
+    -->
+<!--
+    <form id="form">
+        <input id="message" type="text"/> 
+        <button id="abutton"> a button </button>
+        <input type="submit">
+    </form>
+-->
+
+<h1> To Do List </h1>
+    
+   
+   
+<ul id="tasks_list"> </ul>
+
+<form id="new-task" style="text-align: center;">
+
+
+<input id="task" autocomplete="off" autofocus placeholder="New Task" type="text" required="required">
+
+<div>
+    
+    <!--<button id="red"red>red</button> -->
+    
+
+    <select name="priority" id="priority" required="required" >
+        <option disabled selected value>  Select Priority  </option>
+        <option value="Low-Priority" id="low">Low-Priority</option>
+        <option value="Medium-Priority" id="medium">Medium-priority</option>
+        <option value="High-Priority" id="high">High-Priority</option>
+
+        </select>
+</div>
+
+    <input type="radio" id="pending" name="choice" required="required">  
+    <label for ="pending"> Pending </label>
+
+
+    <input type="radio" id="completed" name="choice" required="required">  
+    <label for ="completed"> Completed </label>
+
+    <input id="submit" type="submit">
+
+</form>
+
+</body>
+
+</html>

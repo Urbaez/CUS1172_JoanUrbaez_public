@@ -1,0 +1,29 @@
+form{
+    border: solid;
+    background-color:rgb(158, 255, 102) ;
+    width: 500px;
+    height: 150px;
+    margin: auto;
+}
+h1{
+    background-color: aqua;
+    border: solid;
+    width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: auto;
+    padding-top: 0px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+li{
+    background-color: aqua;
+    border: solid;
+    width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: auto;
+    font-size: larger;
+}
